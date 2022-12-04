@@ -118,17 +118,6 @@ export function Home() {
                 img={img}
                 name={name}
                 position={position}
-                {/*
-                socials={
-                  <div className="flex items-center gap-2">
-                    {socials.map(({ color, name }) => (
-                      <IconButton key={name} color={color} variant="text">
-                        <i className={`fa-brands text-lg fa-${name}`} />
-                      </IconButton>
-                    ))}
-                  </div>
-                }
-                */}
               />
             ))}
           </div>
