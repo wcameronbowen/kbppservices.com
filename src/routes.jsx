@@ -8,7 +8,6 @@ import {
 } from "@heroicons/react/24/solid";
 
 export const routes = [
-{/*
   {
     icon: HomeIcon,
     name: "home",
@@ -40,7 +39,6 @@ export const routes = [
     target: "_blank",
     element: "",
   },
-*/}
 ];
 
 export default routes;
