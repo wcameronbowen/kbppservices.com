@@ -108,10 +108,8 @@ export function Home() {
       </section>
       <section className="px-4 pt-20 pb-48">
         <div className="container mx-auto">
-          <PageTitle heading="Here are our heroes">
-            According to the National Oceanic and Atmospheric Administration,
-            Ted, Scambos, NSIDClead scentist, puts the potentially record
-            maximum.
+          <PageTitle heading="Hear from our customers">
+            Don't take our word for it. Hear from our customers how we've helped improve their properties.
           </PageTitle>
           <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
             {teamData.map(({ img, name, position, socials }) => (
@@ -120,6 +118,7 @@ export function Home() {
                 img={img}
                 name={name}
                 position={position}
+                {/*
                 socials={
                   <div className="flex items-center gap-2">
                     {socials.map(({ color, name }) => (
@@ -129,6 +128,7 @@ export function Home() {
                     ))}
                   </div>
                 }
+                */}
               />
             ))}
           </div>
