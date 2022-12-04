@@ -69,6 +69,7 @@ export function Navbar({ brandName, routes, action }) {
           </Typography>
         </Link>
         <div className="hidden lg:block">{navList}</div>
+        {/*
         <div className="hidden gap-2 lg:flex">
           <a
             href="https://www.material-tailwind.com/blocks?ref=mtkr"
@@ -82,6 +83,7 @@ export function Navbar({ brandName, routes, action }) {
             className: "hidden lg:inline-block",
           })}
         </div>
+        */}
         <IconButton
           variant="text"
           size="sm"
@@ -96,6 +98,7 @@ export function Navbar({ brandName, routes, action }) {
           )}
         </IconButton>
       </div>
+      {/*
       <MobileNav
         className="rounded-xl bg-white px-4 pt-2 pb-4 text-blue-gray-900"
         open={openNav}
@@ -116,6 +119,7 @@ export function Navbar({ brandName, routes, action }) {
           })}
         </div>
       </MobileNav>
+      */}
     </MTNavbar>
   );
 }
