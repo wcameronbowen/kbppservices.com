@@ -14,6 +14,7 @@ export const routes = [
     path: "/home",
     element: <Home />,
   },
+  {/*
   {
     icon: UserCircleIcon,
     name: "profile",
@@ -39,6 +40,7 @@ export const routes = [
     target: "_blank",
     element: "",
   },
+  */}
 ];
 
 export default routes;
