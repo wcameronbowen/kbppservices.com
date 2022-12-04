@@ -121,14 +121,14 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "Material Tailwind React",
+  brandName: "KB Property Preservation Services",
   action: (
     <a
-      href="https://www.creative-tim.com/product/material-tailwind-kit-react"
+      href="https://google.com"
       target="_blank"
     >
       <Button variant="gradient" size="sm" fullWidth>
-        free download
+        schedule meeting
       </Button>
     </a>
   ),
