@@ -125,7 +125,7 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "KB Property Preservation Services",
+  brandName: "KB Preservation Services",
   action: (
     <a
       href="https://google.com"
