@@ -162,7 +162,7 @@ export function Home() {
               <Input variant="standard" size="lg" label="Email Address" />
             </div>
             <Textarea variant="standard" size="lg" label="Message" rows={8} />
-            <Button variant="gradient" size="lg" className="mt-8">
+            <Button variant="gradient" size="lg" className="mt-8" type="submit">
               Send Message
             </Button>
           </form>
