@@ -155,7 +155,7 @@ export function Home() {
           <PageTitle heading="Want to work with us?">
             Complete this form and we will get back to you in 24 hours.
           </PageTitle>
-          <form className="mx-auto mt-12 max-w-3xl text-center">
+          <form name="subcontractor-contact" className="mx-auto mt-12 max-w-3xl text-center" netlify>
             <div className="mb-8 flex gap-8">
               <Input variant="standard" size="lg" label="Full Name" />
               <Input variant="standard" size="lg" label="Email Address" />
@@ -175,3 +175,15 @@ export function Home() {
 }
 
 export default Home;
+
+<form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
