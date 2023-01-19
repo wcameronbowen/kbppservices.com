@@ -155,7 +155,7 @@ export function Home() {
           <PageTitle heading="Want to work with us?">
             Complete this form and we will get back to you in 24 hours.
           </PageTitle>
-          <form name="subcontractor-contact" className="mx-auto mt-12 max-w-3xl text-center" netlify>
+          <form name="subcontractor-contact" className="mx-auto mt-12 max-w-3xl text-center" data-netlify="true">
             <div className="mb-8 flex gap-8">
               <Input variant="standard" size="lg" label="Full Name" />
               <Input variant="standard" size="lg" label="Email Address" />
