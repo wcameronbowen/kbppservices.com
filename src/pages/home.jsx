@@ -106,8 +106,8 @@ export function Home() {
           </div>
         </div>
       </section>
+      {/*
       <section className="px-4 pt-20 pb-48">
-        {/*
         <div className="container mx-auto">
           <PageTitle heading="Hear from our customers">
             Don't take our word for it. Hear from our customers how we've helped improve their properties.
@@ -123,8 +123,8 @@ export function Home() {
             ))}
           </div>
         </div>
-        */}
       </section>
+      */}
       <section className="relative bg-blue-gray-50/50 py-24 px-4">
         <div className="container mx-auto">
           {/*
